@@ -38,7 +38,8 @@ This project analyzes 800K+ transactions from a UK-based online retailer (Online
 
 ## 📂 Dataset
 
-**Online Retail II** — UK-based online retailer, December 2009–December 2011
+**Online Retail II** — UK-based online retailer, December 2009–December 2011 
+[https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uc](url)
 Columns used: `Invoice`, `InvoiceDate`, `Customer ID`, `Quantity`, `Price`, `Country`
 
 ---
