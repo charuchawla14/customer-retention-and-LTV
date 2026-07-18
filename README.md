@@ -146,26 +146,6 @@ Evaluating the model by **customer count** alone paints an incomplete picture. W
 
 ---
 
-## 🏗️ Project Structure
-
-```
-customer-retention-analytics/
-│
-├── 01_Data_Cleaning.ipynb
-├── 02_EDA.ipynb
-├── 03_RFM_calculation.ipynb
-├── 04_Hypothesis_testing.ipynb
-├── 05_Churn_Prediction.ipynb
-│
-├── online_retail_II.csv
-├── cleaned_data.csv
-├── customer_rfm_segments.csv
-│
-└── README.md
-```
-
----
-
 ## 🚀 Conclusion
 
 This project moves beyond a standard churn-prediction exercise by testing every finding against a follow-up question: *is this real, and is this actually useful?* RFM segmentation surfaced a concentrated revenue base; hypothesis testing confirmed the At Risk segment's elevated value wasn't a statistical fluke; and the churn model, rather than being reported at face value, was stress-tested by revenue rather than headcount — revealing that a seemingly strong 73%-accuracy model actually fails at the one thing that matters most financially. The resulting recommendation — pairing the model with a value-weighted manual override — reflects the kind of applied, skeptical analytical judgment expected of a data analyst working with real, imperfect business data.
